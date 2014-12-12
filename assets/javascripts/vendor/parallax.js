@@ -11,7 +11,7 @@
     windowInnerHeight = window.innerHeight;
     plxBackgroundTopToWindowTop = plxBackgroundTopToPageTop - windowTopToPageTop;
     plxBackgroundTopToWindowBottom = windowInnerHeight - plxBackgroundTopToWindowTop;
-    plxSpeed = 0.35;
+    plxSpeed = 0.15;
     return plxBackground.css("top", -(plxWindowTopToWindowTop * plxSpeed) + "px");
   };
 
