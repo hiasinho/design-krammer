@@ -9292,11 +9292,9 @@ if ('undefined' != typeof jQuery)
 
 }).call(this);
 (function() {
-  $.imgpreload(["../assets/images/catering.jpg", "../assets/images/title_bg01.jpg"], {
+  $.imgpreload(["assets/images/catering.jpg", "images/title_bg01.jpg"], {
     each: function() {},
-    all: function() {
-      debugger;
-    }
+    all: function() {}
   });
 
   $.mark = {
