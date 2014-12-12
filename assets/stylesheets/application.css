@@ -5502,92 +5502,8 @@ body {
         .hero nav li a:hover {
           color: #999;
           background-color: rgba(0, 0, 0, 0.3); }
-  /* line 202, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
-  .hero navl {
-    position: relative;
-    width: 100%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
-    box-orient: vertical;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-direction: column;
-    -webkit-box-align: center;
-    -moz-box-align: center;
-    box-align: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    -o-align-items: center;
-    align-items: center;
-    -ms-flex-align: center;
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    box-pack: center;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    -ms-justify-content: center;
-    -o-justify-content: center;
-    justify-content: center;
-    -ms-flex-pack: center;
-    background-color: rgba(25, 64, 115, 0.6); }
-    @media screen and (min-width: 640px) {
-      /* line 202, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
-      .hero navl {
-        height: 10vh;
-        -webkit-box-orient: horizontal;
-        -moz-box-orient: horizontal;
-        box-orient: horizontal;
-        -webkit-flex-direction: row;
-        -moz-flex-direction: row;
-        flex-direction: row;
-        -ms-flex-direction: row; } }
-    /* line 218, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
-    .hero navl li {
-      padding: 15px 0 0 0;
-      text-transform: uppercase;
-      font-size: 1.2em;
-      font-weight: 200;
-      list-style-type: none; }
-      @media screen and (min-width: 640px) {
-        /* line 218, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
-        .hero navl li {
-          padding: 0 15px; } }
-      /* line 230, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
-      .hero navl li:last-child {
-        padding-bottom: 15px; }
-        @media screen and (min-width: 640px) {
-          /* line 230, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
-          .hero navl li:last-child {
-            padding-bottom: 0; } }
-      /* line 238, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
-      .hero navl li a {
-        padding-bottom: 0px;
-        color: #999;
-        -webkit-transition: border 0.3s ease-in-out;
-        -moz-transition: border 0.3s ease-in-out;
-        transition: border 0.3s ease-in-out;
-        -webkit-transition: background-color 0.3s ease-in-out;
-        -moz-transition: background-color 0.3s ease-in-out;
-        transition: background-color 0.3s ease-in-out; }
-        /* line 244, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
-        .hero navl li a:hover {
-          color: #999;
-          background-color: rgba(25, 64, 115, 0.8); }
-          @media screen and (min-width: 640px) {
-            /* line 244, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
-            .hero navl li a:hover {
-              border-bottom: 4px solid #999; } }
 
-/* line 259, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+/* line 203, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
 .area {
   -webkit-box-align: center;
   -moz-box-align: center;
@@ -5621,11 +5537,12 @@ body {
   -o-justify-content: flex-start;
   justify-content: flex-start;
   -ms-flex-pack: start;
-  padding-bottom: 12vh; }
-  /* line 268, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+  padding-bottom: 12vh;
+  border-bottom: 5px solid black; }
+  /* line 213, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
   .area.area-full {
     min-height: 100vh; }
-  /* line 272, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+  /* line 217, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
   .area .area-header {
     position: relative;
     padding-top: 25px;
@@ -5641,20 +5558,20 @@ body {
       display: table;
       clear: both; }
     @media screen and (min-width: 640px) {
-      /* line 272, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+      /* line 217, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
       .area .area-header {
         padding-top: 12vh; } }
-    /* line 284, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+    /* line 229, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
     .area .area-header h1 {
       font-weight: 200; }
-    /* line 288, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+    /* line 233, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
     .area .area-header h2 {
       position: relative;
       font-size: 1em;
       text-transform: uppercase;
       padding-bottom: 0.125em;
       margin-bottom: 1em; }
-    /* line 296, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+    /* line 241, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
     .area .area-header h3 {
       font-weight: 300;
       font-size: 1.8em;
@@ -5662,14 +5579,14 @@ body {
       line-height: 1;
       letter-spacing: -0.015em; }
       @media screen and (min-width: 480px) {
-        /* line 296, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+        /* line 241, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
         .area .area-header h3 {
           font-size: 2.5em; } }
       @media screen and (min-width: 640px) {
-        /* line 296, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+        /* line 241, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
         .area .area-header h3 {
           font-size: 3.375em; } }
-  /* line 314, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+  /* line 259, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
   .area .container {
     position: relative;
     text-align: center;
@@ -5681,19 +5598,19 @@ body {
       content: "";
       display: table;
       clear: both; }
-    /* line 319, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+    /* line 264, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
     .area .container h1 {
       font-weight: 200; }
-    /* line 323, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+    /* line 268, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
     .area .container p {
       position: relative;
       font-size: 1.125em;
       line-height: 1.33;
       padding: 1.063em 0 0; }
-    /* line 330, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+    /* line 275, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
     .area .container table {
       text-align: left; }
-    /* line 334, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+    /* line 279, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
     .area .container aside {
       float: left;
       display: block;
@@ -5704,7 +5621,7 @@ body {
       .area .container aside:last-child {
         margin-right: 0; }
       @media screen and (min-width: 480px) {
-        /* line 334, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+        /* line 279, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
         .area .container aside {
           float: left;
           display: block;
@@ -5714,7 +5631,7 @@ body {
           .area .container aside:last-child {
             margin-right: 0; } }
       @media screen and (min-width: 640px) {
-        /* line 334, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+        /* line 279, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
         .area .container aside {
           float: left;
           display: block;
@@ -5724,7 +5641,7 @@ body {
           .area .container aside:last-child {
             margin-right: 0; } }
       @media screen and (min-width: 860px) {
-        /* line 334, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+        /* line 279, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
         .area .container aside {
           float: left;
           display: block;
@@ -5733,10 +5650,10 @@ body {
           /* line 38, /Users/hiasdo/.rvm/gems/ruby-2.1.2/gems/neat-1.6.0/app/assets/stylesheets/grid/_span-columns.scss */
           .area .container aside:last-child {
             margin-right: 0; } }
-      /* line 350, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+      /* line 295, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
       .area .container aside p {
         text-align: left; }
-    /* line 355, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+    /* line 300, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
     .area .container section {
       float: left;
       display: block;
@@ -5747,7 +5664,7 @@ body {
       .area .container section:last-child {
         margin-right: 0; }
       @media screen and (min-width: 480px) {
-        /* line 355, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+        /* line 300, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
         .area .container section {
           float: left;
           display: block;
@@ -5757,7 +5674,7 @@ body {
           .area .container section:last-child {
             margin-right: 0; } }
       @media screen and (min-width: 640px) {
-        /* line 355, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+        /* line 300, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
         .area .container section {
           float: left;
           display: block;
@@ -5767,7 +5684,7 @@ body {
           .area .container section:last-child {
             margin-right: 0; } }
       @media screen and (min-width: 860px) {
-        /* line 355, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+        /* line 300, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
         .area .container section {
           float: left;
           display: block;
@@ -5776,65 +5693,65 @@ body {
           /* line 38, /Users/hiasdo/.rvm/gems/ruby-2.1.2/gems/neat-1.6.0/app/assets/stylesheets/grid/_span-columns.scss */
           .area .container section:last-child {
             margin-right: 0; } }
-      /* line 371, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+      /* line 316, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
       .area .container section p {
         text-align: left; }
 
-/* line 380, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+/* line 325, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
 #metzgerei {
   background-color: #194073; }
-  /* line 389, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+  /* line 334, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
   #metzgerei .parallax-background {
     background-image: url("../images/fn02.png"), -webkit-linear-gradient(#194073 0, black 100%, transparent 100%);
     background-image: url("../images/fn02.png"), linear-gradient(to   , black 100%, transparent 100%); }
 
-/* line 395, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+/* line 340, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
 #catering .parallax-background {
   background-image: url("../images/catering.jpg");
   background-image: url("../images/catering.jpg"); }
 
-/* line 400, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+/* line 345, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
 #feinkost {
   background-image: url("../images/feinkost_sym.png"), url("../images/fn.png");
   background-image: url("../images/feinkost_sym.png"), url("../images/fn.png");
   background-position: 90% bottom, center;
   background-repeat: no-repeat, repeat;
   background-color: white; }
-  /* line 406, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+  /* line 351, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
   #feinkost .parallax-background {
     background-image: url("../images/feinkost.jpg");
     background-image: url("../images/feinkost.jpg"); }
 
-/* line 417, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+/* line 362, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
 #restaurant .parallax-background {
   background-image: url("../images/fn02.png"), -webkit-linear-gradient(#194073 0, black 100%, transparent 100%);
   background-image: url("../images/fn02.png"), linear-gradient(to   , black 100%, transparent 100%); }
-/* line 422, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+/* line 367, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
 #restaurant section .menu {
   background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/double_lined.png"), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(230, 230, 230, 0.7)), center no-repeat rgba(255, 255, 255, 0.7) scroll;
   background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/double_lined.png"), linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(230, 230, 230, 0.7)), center no-repeat rgba(255, 255, 255, 0.7) scroll;
   border-radius: 0.1875em;
   color: #333; }
-  /* line 428, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+  /* line 373, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
   #restaurant section .menu th {
     background-color: rgba(153, 153, 153, 0.3); }
-  /* line 432, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+  /* line 377, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
   #restaurant section .menu td, #restaurant section .menu th {
     padding: 10px 0;
     border: 0; }
-    /* line 436, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+    /* line 381, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
     #restaurant section .menu td:first-child, #restaurant section .menu th:first-child {
       padding-left: 20px; }
-    /* line 439, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+    /* line 384, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
     #restaurant section .menu td:last-child, #restaurant section .menu th:last-child {
       padding-right: 20px; }
-  /* line 446, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+  /* line 391, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
   #restaurant section .menu tbody tr:last-child {
     border: 0; }
-  /* line 450, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+  /* line 395, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
   #restaurant section .menu tbody tr:nth-child(2n+1) {
     background-color: rgba(230, 230, 230, 0.3); }
-  /* line 455, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
+  /* line 400, /Users/hiasdo/Sites/design/krammer/source/assets/stylesheets/_global.css.scss */
   #restaurant section .menu .unit, #restaurant section .menu .price {
     width: 100px;
     text-align: right; }
